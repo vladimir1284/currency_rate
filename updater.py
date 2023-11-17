@@ -18,10 +18,10 @@ prefix = os.getenv('TABLE_PREFIX')
 # Connect to the database
 conn = mariadb.connect(
     user=username,
-    password="ganador",
-    host="localhost",
-    port=3306,
-    database="wordpress"
+    password=password,
+    host=host,
+    port=port,
+    database=database
 
 )
 
